@@ -35,12 +35,12 @@ body {
 
 .container input:focus {
   outline: none;
-  background-color: #fff;
+  background: #fff;
 }
 
 .container input:active {
   outline: none;
-  background-color: #fff;
+  background: #fff;
 }
 
 .container ::placeholder {
@@ -53,7 +53,7 @@ body {
   justify-content: center;
   align-items: center;
   border: none;
-  background: #008B8B;
+  background: #fff;
   color: white;
   border-radius: 0;
   padding: 0 16px;
@@ -63,15 +63,15 @@ body {
 
 .container button img {
   width: 16px;
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .container button:hover {
-  background: #fff;
+  background: #008B8B;
 }
 
 .container button:hover img {
-  filter: none;
+  filter: brightness(0) invert(1);
 }
 
 .container:focus-within {

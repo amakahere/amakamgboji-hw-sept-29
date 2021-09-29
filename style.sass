@@ -32,11 +32,11 @@ body
 
     input:focus
         outline: none
-        background-color: #fff
+        background: #fff
 
     input:active
         outline: none
-        background-color: #fff
+        background: #fff
 
     ::placeholder
         color: $green
@@ -47,7 +47,7 @@ body
         justify-content: center
         align-items: center
         border: none
-        background: $green
+        background: #fff
         color: white
         border-radius: 0
         padding: 0 16px
@@ -56,13 +56,13 @@ body
 
         img
             width: 16px
-            filter: brightness(0) invert(1)
+            filter: none
 
     button:hover
-        background: #fff
+        background: $green
 
         img
-            filter: none
+            filter: brightness(0) invert(1)
 
 .container:focus-within
     border: 1px solid $green
